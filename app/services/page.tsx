@@ -107,7 +107,7 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-white transition-colors duration-300">
       {/* Header */}
       <header className="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 p-4 transition-colors duration-300">
-        <div className="container mx-auto flex items-center justify-between">
+        <div className="container mx-auto flex flex-wrap items-center justify-between gap-2 overflow-hidden">
           <h1 className="text-xl font-semibold">Weight Management Service</h1>
           <div className="flex space-x-2">
             <Button
